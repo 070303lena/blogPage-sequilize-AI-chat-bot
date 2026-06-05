@@ -77,7 +77,7 @@ stripe.exe listen --forward-to http://localhost:5000/stripe/webhook
 
 ## 🌐 Ngrok (optional)
 
-ngrok config add-authtoken YOUR_NGROK_AUTH_TOKEN  
+ngrok config add-authtoken 3EIecQYQuRN3MwGs3fy4m2qjz5j_5zeDWfKrPzFfaFFMhiiT3
 ngrok http 5000  
 
 ---
