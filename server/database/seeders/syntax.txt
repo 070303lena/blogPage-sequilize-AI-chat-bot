@@ -1,0 +1,4 @@
+npx sequelize-cli seed:generate --name demo-users
+
+Запуск seeder’ов
+npx sequelize-cli db:seed:all

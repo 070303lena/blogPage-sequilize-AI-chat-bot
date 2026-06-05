@@ -1,0 +1,21 @@
+//run
+cd client 
+npm i
+npm run dev
+
+cd server
+npm i 
+npm run dev
+
+//stripe
+cd stripe
+stripe.exe login
+( enter u kayqum login - allow acsses)
+stripe.exe listen --forward-to http://localhost:5000/stripe/webhook
+
+//ngrok 
+ngrok config add-authtoken 3EIecQYQuRN3MwGs3fy4m2qjz5j_5zeDWfKrPzFfaFFMhiiT3
+ngrok http 5000
+
+//stugumner
+$ stripe trigger checkout.session.completed 

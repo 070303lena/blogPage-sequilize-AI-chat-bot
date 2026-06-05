@@ -1,0 +1,33 @@
+Task: Build a Simple Blog using Next.js
+
+Description:
+You are tasked with creating a simple blog website using Next.js(app router). The blog should have the following features:
+
+Home Page:
+Display a list of blog posts.
+Each blog post should show its title, author, publication date, and a brief excerpt.
+
+Individual Post Page:
+Clicking on a blog post title should take the user to a page dedicated to that post.
+This page should display the full content of the post along with its title, author and publication date.
+Include a button or link to return to the home page.
+
+Styling:
+Use CSS framework Tailwind to style the components and make the blog visually appealing.
+
+Requirements:
+Use Next.js for server-side rendering (SSR) and routing.
+Utilize the getStaticProps function to fetch blog posts data from a mock API or a JSON file.
+Create a separate page for each blog post using dynamic routing with getStaticPaths and getStaticProps.
+Ensure the website is responsive and works well on both desktop and mobile devices.
+Deploy the website on a hosting platform like Vercel.
+
+Optional Bonus:
+Add functionality for creating, editing, and deleting blog posts using mock data or a simple API.
+Implement pagination for the list of blog posts on the home page.
+Include a search functionality to filter blog posts by title or content.
+
+Submission:
+Please provide a GitHub repository containing your Next.js project code along with a README.md file explaining how to run the project locally and any additional notes or considerations.
+
+http://mockapi.io/mockapi.iomockAPIMockAPI is a simple tool that lets you easily mock up APIs, generate custom data, and perform operations on it using RESTful interface. MockAPI is meant to be used as a prototyping/testing/learning tool.
